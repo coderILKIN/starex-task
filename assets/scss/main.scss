@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    .header-top{
+        background-color: #005aff;
+        width: 100%;
+        height: 40px;
+        .container{
+            .row{
+                .col-lg-6.contact{
+                    ul{
+                        display: flex;
+                        li{
+                            margin: 0.5rem;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                .col-lg-6.login{
+                    ul{
+                        display: flex;
+                        justify-content: end;
+                        li{
+                            margin: 0.5rem;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+                        li:hover{
+                            opacity: .8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-bottom{
+        .container{
+            .row{
+                .col-lg-1{
+                    svg{
+                        margin: 2rem;
+                    }
+                }
+                .col-lg-7{
+                    nav{
+                        ul{
+                            display: flex;
+                            justify-content: center;
+                            margin: 0.5rem;
+                            margin-left: 5rem;
+                            li{
+                                margin: 1.5rem 1.1rem;
+                                font-size: 1.1rem;
+                                a{
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                                a:hover{
+                                    color: #ffab03;
+                                    transition: 0.1s;
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-lg-4{
+                    ul{
+                        display: flex;
+                        justify-content: end;
+                        margin: 0.5rem;
+                        li{
+                            margin: 1rem;
+                            width: 130px;
+                            padding: 9px;
+                            text-align: center;
+                            background-color: #005aff;
+                            border-radius: 5px;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+                        .right-btn{
+                            background-color: #ffab03;;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

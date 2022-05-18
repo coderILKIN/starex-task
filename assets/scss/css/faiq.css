@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header .header-top {
+  background-color: #005aff;
+  width: 100%;
+  height: 40px;
+}
+
+header .header-top .container .row .col-lg-6.contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header-top .container .row .col-lg-6.contact ul li {
+  margin: 0.5rem;
+}
+
+header .header-top .container .row .col-lg-6.contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header-top .container .row .col-lg-6.login ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .header-top .container .row .col-lg-6.login ul li {
+  margin: 0.5rem;
+}
+
+header .header-top .container .row .col-lg-6.login ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header-top .container .row .col-lg-6.login ul li:hover {
+  opacity: .8;
+}
+
+header .header-bottom .container .row .col-lg-1 svg {
+  margin: 2rem;
+}
+
+header .header-bottom .container .row .col-lg-7 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.5rem;
+  margin-left: 5rem;
+}
+
+header .header-bottom .container .row .col-lg-7 nav ul li {
+  margin: 1.5rem 1.1rem;
+  font-size: 1.1rem;
+}
+
+header .header-bottom .container .row .col-lg-7 nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header .header-bottom .container .row .col-lg-7 nav ul li a:hover {
+  color: #ffab03;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+header .header-bottom .container .row .col-lg-4 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin: 0.5rem;
+}
+
+header .header-bottom .container .row .col-lg-4 ul li {
+  margin: 1rem;
+  width: 130px;
+  padding: 9px;
+  text-align: center;
+  background-color: #005aff;
+  border-radius: 5px;
+}
+
+header .header-bottom .container .row .col-lg-4 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .header-bottom .container .row .col-lg-4 ul .right-btn {
+  background-color: #ffab03;
+}
+
+main section .container .row .head {
+  margin-top: 15px;
+  text-align: center;
+}
+
+main section .container .row .col-lg-4 .left-btn {
+  font-size: 18px;
+  margin: 50px 20px;
+  width: 100%;
+  height: 290px;
+  background-color: antiquewhite;
+}
+
+main section .container .row .col-lg-4 .left-btn .head1 {
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-4 .left-btn .head1:hover {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-4 .left-btn .head2 {
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-4 .left-btn .head2:hover {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-4 .left-btn .head3 {
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-4 .left-btn .head3:hover {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-4 .left-btn .head4 {
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-4 .left-btn .head4:hover {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-4 .left-btn .head5 {
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-4 .left-btn .head5:hover {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-4 .left-btn .head6 {
+  padding: 10px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-4 .left-btn .head6:hover {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-8 .right-btn {
+  font-size: 18px;
+  margin: 50px 20px;
+  width: 100%;
+  height: 220px;
+  background-color: azure;
+}
+
+main section .container .row .col-lg-8 .right-btn .txt-head1 {
+  padding: 5px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-8 .right-btn .text1 {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-8 .right-btn .txt-head2 {
+  padding: 5px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-8 .right-btn .text2 {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-8 .right-btn .txt-head3 {
+  padding: 5px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-8 .right-btn .text3 {
+  background-color: azure;
+}
+
+main section .container .row .col-lg-8 .right-btn .txt-head4 {
+  padding: 5px;
+  border-bottom: 0.1px solid black;
+}
+
+main section .container .row .col-lg-8 .right-btn .text4 {
+  background-color: azure;
+}
+/*# sourceMappingURL=faiq.css.map */
